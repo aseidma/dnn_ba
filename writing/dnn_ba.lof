@@ -1,0 +1,24 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Position der Elektroden am Unterarm (\cite {Kaufmann2013Data})\relax }}{8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Merkmalsextraktion aus der stetigen Phase (\cite {Kaufmann2013Data})\relax }}{8}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Im Datensatz enthaltene Merkmale (\cite {Kaufmann2013Data})\relax }}{9}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Aufbau eines Eintrags im Datensatz, während $m_{1x}$ das $x$te Merkmal der 1. Elektrode bezeichnet. Die aufgezeichnete Klasse wird durch $k$ und die aktuelle Aufnahmesitzung durch $t$ gekennzeichnet (eigene Darstellung).\relax }}{10}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Grundlegender Aufbau eines RNN mit Input Layer $u_t$ und HL $x_t$ (\cite {pascanu2013difficulty})\relax }}{15}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Darstellung der Genauigkeit auf dem Validierungsdatensatz in Abhängigkeit der Epoche\relax }}{16}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Klassifikationsfehler der RNN Architektur in Abhängigkeit der Epoche\relax }}{17}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Klassifikationsgenauigkeit der verwendeten LSTM Architektur in Abhängigkeit der Epoche auf dem Validierungsdatensatz\relax }}{20}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Klassifikationsgenauigkeit der GRU Architektur auf dem Validierungsdatensatz in Abhängigkeit der Epoche\relax }}{21}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Vergleich der Klassifizierungsgenauigkeiten in Abhängigkeit der Epoche. Enthalten sind das gewöhnliche RNN (Orange), LSTM (Grau) und GRU (Blau)\relax }}{28}%
+\addvspace {10\p@ }
+\babel@toc {ngerman}{}
+\addvspace {10\p@ }

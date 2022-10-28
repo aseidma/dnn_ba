@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2020)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dnn_ba.aux
+A level-1 auxiliary file: kapitel/titel.aux
+A level-1 auxiliary file: kapitel/abkuerzungen.aux
+A level-1 auxiliary file: kapitel/einleitung.aux
+A level-1 auxiliary file: kapitel/emg-signals.aux
+A level-1 auxiliary file: kapitel/dataset.aux
+A level-1 auxiliary file: kapitel/dnn.aux
+A level-1 auxiliary file: kapitel/experiment.aux
+A level-1 auxiliary file: kapitel/rnn.aux
+A level-1 auxiliary file: kapitel/other-classifiers.aux
+A level-1 auxiliary file: kapitel/results.aux
+A level-1 auxiliary file: kapitel/summary.aux
+The style file: literatur/natdin.bst
+A level-1 auxiliary file: kapitel/erklaerung.aux
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: literatur/dnn_ba_bib.bib
+Warning--entry type for "scikitDT" isn't style-file defined
+--line 154 of file literatur/dnn_ba_bib.bib
+You've used 28 entries,
+            4586 wiz_defined-function locations,
+            1064 strings with 12013 characters,
+and the built_in function-call counts, 22435 in all, are:
+= -- 2204
+> -- 864
+< -- 720
++ -- 907
+- -- 297
+* -- 1813
+:= -- 3992
+add.period$ -- 33
+call.type$ -- 28
+change.case$ -- 177
+chr.to.int$ -- 28
+cite$ -- 28
+duplicate$ -- 597
+empty$ -- 1379
+format.name$ -- 423
+if$ -- 4224
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 127
+newline$ -- 160
+num.names$ -- 112
+pop$ -- 252
+preamble$ -- 1
+purify$ -- 233
+quote$ -- 0
+skip$ -- 1129
+stack$ -- 0
+substring$ -- 1534
+swap$ -- 164
+text.length$ -- 117
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 288
+warning$ -- 0
+while$ -- 211
+width$ -- 0
+write$ -- 391
+(There was 1 warning)

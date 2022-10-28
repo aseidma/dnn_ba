@@ -1,0 +1,65 @@
+\chapter{Einleitung}
+\label{chap:einleitung}
+
+Seit einigen Jahren sind Tiefe Neuronale Netze (DNN) bereits ein etablierter Teilbereich der
+Forschung an künstlicher Intelligenz. So spielen DNN in einer Vielzahl von
+Anwendungsbereichen eine stetig wachsende Rolle.
+Durch die Weiterentwicklung der den DNN zugrunde liegenden Algorithmen und der für die
+Implementierung verwendeten Hardware verzeichnen diese Technologien jüngstens auch in
+Bereichen wie der Klassifikation von elektrischer Muskelaktivität erhebliche Fortschritte (\cite{Allard2019}). Hierfür ist
+eine gängige Methode die Verwendung von Oberflächen-Elektromyografie (sEMG), bei der
+äußerlich an der Haut angebrachte Elektroden die elektrischen Impulse der darunter befindlichen
+Muskulatur messen und aus diesen Merkmale für die Klassifikation extrahieren. Durch die Klassifikation der Merkmale kann somit dem Impuls eine korrespondierende Bewegung zugeordnet werden. Diese Möglichkeit der Informationsextraktion und Umwandlung ist besonders im Bereich der Prothesik interessant, da so Menschen mit fehlenden Gliedmaßen eine Prothese mithilfe ihrer natürlichen Muskelkontraktionen steuern können. Die Verwendung solcher Klassifikatoren mit hohen rechnerischen Anforderungen, war zuvor laut \cite{Allard2019} in den aufgrund ihres Anwendungsbereichs leistungsschwachen eingebetteten Systemen (ES) nahezu unmöglich (\cite{Allard2019}).
+Da bei der Klassifizierung von zwischen einzelnen Aufnahmen stark variierenden
+elektrischen Daten Anpassbarkeit eine wichtige Kerneigenschaft ist (\cite{Kaufmann2013}), öffnet die
+Verwendung von durch Daten stetig lernenden DNN eine ideale Grundlage für die
+Weiterentwicklung solcher Technologien.
+
+\section{Ziel der Arbeit}
+
+Ein Forschungsschwerpunkt der vorigen Jahre waren im Bereich der Klassifikation elektrischer Muskelaktivität die Rekurrenten Neuralen Netze (RNN) (\cite{simao2019emg}, \cite{tsuji2000pattern}). Solche Netze sind vor allem für die Klassifikation und Regression von Daten mit einer zeitlichen Dimension effektiv, da sie anders als andere gängige Neurale Netze anstatt von Momentaufnahmen sequentielle Daten analysieren und klassifizieren können. Solche Architekturen zeigten sich bereits in vorherigen Untersuchungen in der Klassifikation von EMG-Signalen gute Ergebnisse (\cite{simao2019emg}).
+
+Ziel dieser Arbeit ist der Vergleich von RNN mit anderen gängigen Klassifikatoren im Bereich der EMG-Signale durch die Untersuchung auf einem sEMG-Datensatz. RNN unterliegen in ihrer einfachsten Form häufig dem vanishing Gradient Problem, wodurch anfängliche Daten das Ergebnis einer einzelnen Klassifikation immer weniger beeinflussen, je weiter das Netzwerk in der Klassifikation der Sequenz fortschreitet (\cite{pascanu2013difficulty}). Auf Grund dieser Problematik werden für den Vergleich zwei Weiterentwicklungen des normalen RNN, die Architekturen \textit{long short term memory} (LSTM) und \textit{gated recurrent unit} (GRU), zusätzlich herangezogen, um unter der Verwendung von state-of-the-art Architekturen sowohl präzisere als auch repräsentativere Ergebnisse zu erzielen. Die Netzwerkarchitekturen werden mit gängigen Algorithmen verglichen, die in der Vergangenheit bereits gute Ergebnisse in der Klassifikation vom EMG-Signalen erzielt haben. (\cite{Kaufmann2013}) Herangezogen werden \textit{k nearest neighbors} (kNN), \textit{support vector machines} (SVM), \textit{decision trees} (DT) sowie ein \textit{multi layer perceptron} (MLP), also eine einfache Form eines Neuralen Netzwerks.
+Die Architekturen und Algorithmen werden stets mit dem durch \cite{Kaufmann2013Data} erhobenen Datensatz "Forearm EMG 121" trainiert und getestet. Hier handelt es sich um die Aufnahmen von elf Handbewegungen über einen Zeitraum von 21 Tagen. Die Aufnahme erfolgte dabei durch ein am Unterarm platziertes Armband über vier Aufnahmepunkte, aus deren Zeitbereich die Merkmale für den Datensatz extrahiert wurden. Alle untersuchten Architekturen und Algorithmen werden mit demselben Datensatz trainiert und getestet, wobei der Datensatz aufgrund der sequentiellen Natur von RNN für diese in Sequenzen unterteilt wird.
+
+Diese Arbeit soll die Grundlage für weitere Forschung in diesem Bereich der Klassifikation von EMG-Signalen bilden, indem Referenzwerte erhoben und im Vergleich dargestellt werden.
+
+
+\section{Aufbau der Arbeit}
+\label{sec:aufbau-der-arbeit}
+
+% EMG-Signale und Merkmalsextraktion
+Zunächst erfolgt im zweiten Kapitel eine Einführung in die Messung von elektischer Muskelaktivität durch sEMG und die daraus abzuleitende Merkmalsextraktion.
+% Der verwendete Datensatz
+Weiterhin wird im folgenden Kapitel der fortlaufend verwendete Datensatz in Bezug auf die Anforderungen, Eigenschaften, Klassen und die extrahierten Merkmale präsentiert.
+% Einführung Tiefe Neuronale Netze
+Sobald der Grundstein für ein Verständnis der Daten gelegt ist, folgt ein kurzer
+Einblick in die Funktionsweise von Neuralen und tiefen Neuralen Netzen im Allgemeinen, wobei ihr bisheriger Einsatz in der Klassifikation von EMG Signalen betrachtet wird.
+% Experimentaler Aufbau
+Im fünften Kapitel wird der Experimentelle Aufbau aufgezeigt und die Rahmenbedingungen beschrieben. 
+% Recurrent Neural Networks
+Daraufhin wird die
+Funktionsweise von RNN erläutert, wobei hier zunächst die Besonderheiten der Architektur und die Problematik des vanishing und exploding Gradient eingegangen wird. Anschließend werden die angewandten Architekturen zur Lösung selbiger, LSTM und GRU, ebenfalls vorgestellt und beschrieben, wie diese die Nachteile gewöhnlicher RNN Strukturen umgehen.
+% Andere Klassifikatoren
+Das siebte
+Kapitel beleuchtet die Architekturen und Algorithmen, die für den Vergleich mit den RNN verwendet werden. Somit wird auf MLP, kNN, SVM sowie DT eingegangen und deren Funktionsweise erläutert.
+% Ergebnisse und Vergleich
+Im vorletzten Kapitel werden die Ergebnisse der einzelnen Klassifikatoren vor- und ein Vergleich aufgestellt, bevor im finalen Kapitel ein Fazit und
+Ausblick die Arbeit konkludieren.
+
+% EMG-Signale und Merkmalsextraktion ✅
+% Der verwendete Datensatz ✅
+    % Anforderungen ✅
+    % Eigenschaften, Klassen und Merkmale ✅
+% Einführung Tiefe Neurale Netze
+% Recurrent Neural Networks
+    % Einführung Recurrent Neural Networks
+    % Einführung Long Short Term Memory
+    % Einführung GRU
+% Andere Klassifikatoren
+    % Multi Layer Perceptron
+    % k nearest Neighbors
+    % Support Vecor Machines
+    % Decision Trees
+% Ergebnisse und Vergleich
+% Zusammenfassung und Ausblick

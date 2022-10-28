@@ -1,0 +1,296 @@
+% Encoding: UTF-8
+
+@Article{Allard2019,
+  author  = {U. {Côté-Allard} and C. L. {Fall} and A. {Drouin} and A. {Campeau-Lecours} and C. {Gosselin} and K. {Glette} and F. {Laviolette} and B. {Gosselin}},
+  journal = {IEEE Transactions on Neural Systems and Rehabilitation Engineering},
+  title   = {Deep Learning for Electromyographic Hand Gesture Signal Classification Using Transfer Learning},
+  year    = {2019},
+  number  = {4},
+  pages   = {760-771},
+  volume  = {27},
+}
+
+@Article{Kaufmann2013,
+  author     = {Kaufmann, Paul and Glette, Kyrre and Gruber, Thiemo and Platzner, Marco and Torresen, Jim and Sick, Bernhard},
+  journal    = {Trans. Evol. Comp},
+  title      = {Classification of Electromyographic Signals: Comparing Evolvable Hardware to Conventional Classifiers},
+  year       = {2013},
+  issn       = {1089-778X},
+  month      = feb,
+  number     = {1},
+  pages      = {46–63},
+  volume     = {17},
+  doi        = {10.1109/TEVC.2012.2185845},
+  issue_date = {February 2013},
+  numpages   = {18},
+  publisher  = {IEEE Press},
+  url        = {https://doi.org/10.1109/TEVC.2012.2185845},
+}
+
+@Article{Engelhart2003,
+  author  = {K. {Englehart} and B. {Hudgins}},
+  journal = {IEEE Transactions on Biomedical Engineering},
+  title   = {A robust, real-time control scheme for multifunction myoelectric control},
+  year    = {2003},
+  number  = {7},
+  pages   = {848-854},
+  volume  = {50},
+}
+
+@Article{Kaufmann2013Data,
+  author  = {P. {Kaufmann} and K. {Glette} and T. {Gruber} and M. {Platzner} and J. {Torresen} and B. {Sick}},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  title   = {Classification of Electromyographic Signals: Comparing Evolvable Hardware to Conventional Classifiers},
+  year    = {2013},
+  number  = {1},
+  pages   = {46-63},
+  volume  = {17},
+}
+
+@InProceedings{pascanu2013difficulty,
+  author    = {Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua},
+  booktitle = {International conference on machine learning},
+  title     = {On the difficulty of training recurrent neural networks},
+  year      = {2013},
+  pages     = {1310--1318},
+}
+
+@Article{simao2019emg,
+  author    = {Sim{\~a}o, Miguel and Neto, Pedro and Gibaru, Olivier},
+  journal   = {Pattern Recognition Letters},
+  title     = {EMG-based online classification of gestures with recurrent neural networks},
+  year      = {2019},
+  pages     = {45--51},
+  volume    = {128},
+  publisher = {Elsevier},
+}
+
+@InProceedings{cho-etal-2014-learning,
+  author    = {Cho, Kyunghyun and van Merri{\"e}nboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua},
+  booktitle = {Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})},
+  title     = {Learning Phrase Representations using {RNN} Encoder{--}Decoder for Statistical Machine Translation},
+  year      = {2014},
+  address   = {Doha, Qatar},
+  month     = oct,
+  pages     = {1724--1734},
+  publisher = {Association for Computational Linguistics},
+  doi       = {10.3115/v1/D14-1179},
+  url       = {https://www.aclweb.org/anthology/D14-1179},
+}
+
+@Article{friedman1997bias,
+  author    = {Friedman, Jerome H},
+  journal   = {Data mining and knowledge discovery},
+  title     = {On bias, variance, 0/1—loss, and the curse-of-dimensionality},
+  year      = {1997},
+  number    = {1},
+  pages     = {55--77},
+  volume    = {1},
+  publisher = {Springer},
+}
+
+@Article{burges1998tutorial,
+  author    = {Burges, Christopher JC},
+  journal   = {Data mining and knowledge discovery},
+  title     = {A tutorial on support vector machines for pattern recognition},
+  year      = {1998},
+  number    = {2},
+  pages     = {121--167},
+  volume    = {2},
+  publisher = {Springer},
+}
+
+@Book{bishop1995neural,
+  author    = {Bishop, Christopher M and others},
+  publisher = {Oxford university press},
+  title     = {Neural networks for pattern recognition},
+  year      = {1995},
+}
+
+@Article{kingma2014adam,
+  author  = {Kingma, Diederik P and Ba, Jimmy},
+  journal = {arXiv preprint arXiv:1412.6980},
+  title   = {Adam: A method for stochastic optimization},
+  year    = {2014},
+}
+
+@Book{duda2012pattern,
+  author    = {Duda, Richard O and Hart, Peter E and Stork, David G},
+  publisher = {John Wiley \& Sons},
+  title     = {Pattern classification},
+  year      = {2012},
+}
+
+@Article{tsuji2000pattern,
+  author    = {Tsuji, Toshio and Fukuda, Osamu and Kaneko, Makoto and Ito, Koji},
+  journal   = {International Journal of Adaptive Control and Signal Processing},
+  title     = {Pattern classification of time-series EMG signals using neural networks},
+  year      = {2000},
+  number    = {8},
+  pages     = {829--848},
+  volume    = {14},
+  publisher = {Wiley Online Library},
+}
+
+@Book{bischoff2015emg,
+  author    = {C. Bischoff and W.J. Schule-Mattler},
+  publisher = {Thieme},
+  title     = {Das EMG-Buch},
+  year      = {2015},
+  edition   = {3. Aufl},
+  isbn      = {978-3131356635},
+}
+
+@Article{zecca2002control,
+  author    = {Zecca, Micera and Micera, Silvestro and Carrozza, Maria C and Dario, Paolo},
+  journal   = {Critical Reviews™ in Biomedical Engineering},
+  title     = {Control of multifunctional prosthetic hands by processing the electromyographic signal},
+  year      = {2002},
+  number    = {4-6},
+  volume    = {30},
+  publisher = {Begel House Inc.},
+}
+
+@Online{scikitDT,
+  author  = {Scikit},
+  title   = {1.10. Decision Trees},
+  url     = {https://scikit-learn.org/stable/modules/tree.html},
+  urldate = {2020-23-09},
+  year    = {2020},
+}
+
+@Article{gokgoz2015comparison,
+  author    = {Gokgoz, Ercan and Subasi, Abdulhamit},
+  journal   = {Biomedical Signal Processing and Control},
+  title     = {Comparison of decision tree algorithms for EMG signal classification using DWT},
+  year      = {2015},
+  pages     = {138--144},
+  volume    = {18},
+  publisher = {Elsevier},
+}
+
+@InBook{cristianini2000,
+  author    = {Cristianini, Nello and Shawe-Taylor, John},
+  chapter   = {6},
+  pages     = {93–124},
+  publisher = {Cambridge University Press},
+  title     = {Support Vector Machines},
+  year      = {2000},
+  booktitle = {An Introduction to Support Vector Machines and Other Kernel-based Learning Methods},
+  doi       = {10.1017/CBO9780511801389.008},
+}
+
+@Book{haykin2007neural,
+  author    = {Haykin, Simon},
+  publisher = {Prentice-Hall, Inc.},
+  title     = {Neural networks: a comprehensive foundation},
+  year      = {2007},
+}
+
+@InProceedings{nair2010rectified,
+  author    = {Nair, Vinod and Hinton, Geoffrey E},
+  booktitle = {ICML},
+  title     = {Rectified linear units improve restricted boltzmann machines},
+  year      = {2010},
+}
+
+@Article{lecun2015deep,
+  author    = {LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey},
+  journal   = {nature},
+  title     = {Deep learning},
+  year      = {2015},
+  number    = {7553},
+  pages     = {436--444},
+  volume    = {521},
+  publisher = {Nature Publishing Group},
+}
+
+@Misc{hochreiter2001gradient,
+  author    = {Hochreiter, Sepp and Bengio, Yoshua and Frasconi, Paolo and Schmidhuber, J{\"u}rgen and others},
+  title     = {Gradient flow in recurrent nets: the difficulty of learning long-term dependencies},
+  year      = {2001},
+  publisher = {A field guide to dynamical recurrent neural networks. IEEE Press},
+}
+
+@InProceedings{cote2017transfer,
+  author       = {Cote-Allard, Ulysse and Fall, Cheikh Latyr and Campeau-Lecours, Alexandre and Gosselin, Cl{\'e}ment and Laviolette, Fran{\c{c}}ois and Gosselin, Benoit},
+  booktitle    = {2017 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
+  title        = {Transfer learning for sEMG hand gestures recognition using convolutional neural networks},
+  year         = {2017},
+  organization = {IEEE},
+  pages        = {1663--1668},
+}
+
+@Article{geng2016gesture,
+  author    = {Geng, Weidong and Du, Yu and Jin, Wenguang and Wei, Wentao and Hu, Yu and Li, Jiajun},
+  journal   = {Scientific reports},
+  title     = {Gesture recognition by instantaneous surface EMG images},
+  year      = {2016},
+  pages     = {36571},
+  volume    = {6},
+  publisher = {Nature Publishing Group},
+}
+
+@Article{bu2003emg,
+  author    = {Bu, Nan and Fukuda, Osamu and Tsuji, Toshio},
+  journal   = {Journal of Intelligent Information Systems},
+  title     = {EMG-based motion discrimination using a novel recurrent neural network},
+  year      = {2003},
+  number    = {2},
+  pages     = {113--126},
+  volume    = {21},
+  publisher = {Springer},
+}
+
+@InProceedings{kohavi1995study,
+  author       = {Kohavi, Ron and others},
+  booktitle    = {Ijcai},
+  title        = {A study of cross-validation and bootstrap for accuracy estimation and model selection},
+  year         = {1995},
+  number       = {2},
+  organization = {Montreal, Canada},
+  pages        = {1137--1145},
+  volume       = {14},
+}
+
+@Article{srivastava2014dropout,
+  author    = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+  journal   = {The journal of machine learning research},
+  title     = {Dropout: a simple way to prevent neural networks from overfitting},
+  year      = {2014},
+  number    = {1},
+  pages     = {1929--1958},
+  volume    = {15},
+  publisher = {JMLR. org},
+}
+
+@Article{ioffe2015batch,
+  author  = {Ioffe, Sergey and Szegedy, Christian},
+  journal = {arXiv preprint arXiv:1502.03167},
+  title   = {Batch normalization: Accelerating deep network training by reducing internal covariate shift},
+  year    = {2015},
+}
+
+@Article{werbos1990backpropagation,
+  author    = {Werbos, Paul J},
+  journal   = {Proceedings of the IEEE},
+  title     = {Backpropagation through time: what it does and how to do it},
+  year      = {1990},
+  number    = {10},
+  pages     = {1550--1560},
+  volume    = {78},
+  publisher = {IEEE},
+}
+
+@Article{jain1996artificial,
+  author    = {Jain, Anil K and Mao, Jianchang and Mohiuddin, K Moidin},
+  journal   = {Computer},
+  title     = {Artificial neural networks: A tutorial},
+  year      = {1996},
+  number    = {3},
+  pages     = {31--44},
+  volume    = {29},
+  publisher = {IEEE},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

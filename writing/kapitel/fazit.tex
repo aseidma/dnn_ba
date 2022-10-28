@@ -1,0 +1,47 @@
+
+
+\chapter{Summary, Conclusions, and Further Work}
+\label{chap:conclusions}
+The purpose of this book is to understand  the influence of representations on the performance of genetic and evolutionary algorithms. 
+This chapter summarizes the work contained in this study and lists its major contributions.
+
+\selectlanguage{english}
+\section{Summary}
+
+We  started in Chap.~\ref{chap:einleitung} by providing the necessary background for examining representations for  GEAs. Researchers recognized early that representations have a large influence on the performance of GEAs. Consequently, after a brief introduction into representations and GEAs, we discussed how the influence of representations on problem difficulty  can be measured. The chapter ended with prior guidelines for choosing high-quality  representations. Most of them are  mainly based on empirical observations and intuition and not on theoretical analysis.
+
+Therefore, we presented in Chap.~\ref{cha:grafiken} three aspects of a theory of representations for  GEAs. We investigated how the locality, scaling, and locality of an encoding  influences GEA performance. The performance of GEAs is determined by the solution quality at the end of a run and the number of generations until the population is converged. Consequently, for redundant and exponentially scaled encodings, we presented population sizing models and described how the time to convergence is changed.
+Furthermore, we were able to demonstrate that high-locality encodings do not change the difficulty of a problem; in contrast, when using low-locality encodings, on average, the difficulty of problems changes. Therefore,  easy problems become more difficult and difficult problems become easier by the use of low-locality encodings.
+For all three properties of encodings, the theoretical models were verified with empirical results.
+
+
+\section{Conclusions}
+We  summarize the most important contributions of this work.
+
+{\bfseries Framework for design and analysis of representations (and operators) for GEAs.} The main purpose of this study was to present a  framework which describes how genetic representations influence the performance of GEAs. The performance of GEAs is measured by the solution quality at the end of the run and the number of generations until the population is converged. 
+The proposed framework allows us to analyze the influence of existing representations on GEA performance and to develop efficient new representations in a theory-guided way.
+Furthermore, we illustrated that the framework can also be used for the design and analysis of search operators, which are relevant for direct encodings.
+Based on the framework, the development of high-quality representations remains not only a matter of intuition and random search but becomes an engineering design task.
+Even though more work is needed, we believe that the results presented are sufficiently compelling to recommend increased use of the framework.
+
+
+
+{\bfseries Redundancy, Scaling, and Locality}. These are the three elements of the proposed framework of representations.  We demonstrated that these three properties of representations influence GEA performance and presented theoretical models to predict how solution quality and time to convergence changes.
+By examining the redundancy, scaling, and locality of an encoding, we are able to predict the influence of representations on GEA performance.
+
+The theoretical analysis shows that the redundancy of an encoding influences the supply of building blocks (BB) in the initial population. $r$ denotes the number of genotypic BBs that represent the best phenotypic BB, and $k_r$ denotes the order of redundancy. For synonymously redundant encodings, where all genotypes that represent the same phenotype are similar to each other, the probability of GEA failure goes either with  $O(\exp(-r/2^{k_r}))$ (uniformly scaled representations) or  with $O(\exp(-\sqrt{r/2^{k_r}}))$ (exponentially scaled representations).
+Therefore, GEA performance increases if the representation overrepresents high-quality BBs. If a representation is uniformly redundant, that means each phenotype is represented by the same number of genotypes, GEA performance remains unchanged in comparison to non-redundant encodings.
+
+The analysis of the scaling of an encoding reveals that non-uniformly scaled representations modify the dynamics of genetic search. If exponentially scaled representations are used, the alleles are solved serially which increases the overall time until convergence and results in problems with genetic drift but allows rough approximations of the expected optimal solution after a few generations.
+
+We know from previous work that the high locality of an encoding is a necessary condition for efficient mutation-based search.
+An encoding has high locality if neighboring phenotypes correspond to neighboring genotypes.
+Investigating the  influence of locality shows that  high-locality encodings do not change the difficulty of a problem. In contrast, low-locality encodings, where phenotypic neighbors do not correspond to genotypic neighbors, change problem difficulty and make, on average, easy problems more difficult and deceptive problems easier.
+Therefore, to assure that  an easy problem remains easy, high-locality representations  are necessary.
+
+\section{Further Work}
+
+What are the open questions? What should be done next?
+
+\selectlanguage{ngerman}
+

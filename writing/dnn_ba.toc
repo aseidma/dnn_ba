@@ -1,0 +1,31 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{iv}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{v}%
+\contentsline {chapter}{\nonumberline Abk\"{u}rzungsverzeichnis}{vi}%
+\contentsline {chapter}{\numberline {1}Einleitung}{1}%
+\contentsline {section}{\numberline {1.1}Ziel der Arbeit}{1}%
+\contentsline {section}{\numberline {1.2}Aufbau der Arbeit}{2}%
+\contentsline {chapter}{\numberline {2}EMG-Signale und Merkmalsextraktion}{4}%
+\contentsline {chapter}{\numberline {3}Der verwendete Datensatz}{6}%
+\contentsline {section}{\numberline {3.1}Anforderungen an den Datensatz}{6}%
+\contentsline {section}{\numberline {3.2}Aufzeichnung des Datensatzes}{7}%
+\contentsline {section}{\numberline {3.3}Extrahierte Merkmale}{9}%
+\contentsline {chapter}{\numberline {4}Einführung Tiefe Neuronal Netze}{11}%
+\contentsline {chapter}{\numberline {5}Experimenteller Aufbau}{13}%
+\contentsline {chapter}{\numberline {6}Recurrent Neural Networks}{15}%
+\contentsline {section}{\numberline {6.1}Einführung Recurrent Neural Networks}{15}%
+\contentsline {section}{\numberline {6.2}Long Short Term Memory}{18}%
+\contentsline {section}{\numberline {6.3}Gated Recurrent Unit}{20}%
+\contentsline {chapter}{\numberline {7}Gewöhnliche Klassifikatoren}{22}%
+\contentsline {section}{\numberline {7.1}k Nearest Neighbors}{22}%
+\contentsline {section}{\numberline {7.2}Support Vector Machines}{22}%
+\contentsline {section}{\numberline {7.3}Multi Layer Perceptron}{23}%
+\contentsline {section}{\numberline {7.4}Entscheidungsbäume}{24}%
+\contentsline {chapter}{\numberline {8}Ergebnisse und Vergleich}{25}%
+\contentsline {section}{\numberline {8.1}Vergleich der gewöhnlichen Klassifikatoren}{25}%
+\contentsline {section}{\numberline {8.2}Vergleich der RNN-Architekturen}{26}%
+\contentsline {section}{\numberline {8.3}Vergleich zwischen gewöhnlichen Klassifikatoren und RNN}{27}%
+\contentsline {chapter}{\numberline {9}Fazit und Ausblick}{29}%
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{31}%

@@ -1,0 +1,72 @@
+\documentclass[
+	a4paper,
+    headings=small,  % kleinere Überschriften
+    oneside,        % einseitig, nur rechte seiten
+    listof=totoc,   % listen in inhaltsverzeichnis aufnehmen
+    bibliography=totoc,  % literaturverzeichnis in inhltsvz. aufnehmen
+    headsepline     % trennlinie unter kopfzeile
+    ]{scrbook}
+    
+\usepackage[utf8]{inputenc}
+
+%Verwende deutsche, bzw. amerikanische Silbentrennung
+\usepackage[ngerman]{babel} 
+
+\usepackage{subfig} %für mehrteilige Grafiken
+\usepackage{epsfig}    %damit funktioniert das einbinden von grafiken über epsfig.
+\usepackage{graphicx}     % zum einbinden von grafiken
+\usepackage{svg}
+\graphicspath{{grafiken}{../}{kapitel}} %da sind mögliche bilder fuer den includegraphics-Befehl zu finden (man muss dann nicht den ganzen Pfad bei includegraphics angeben.
+\usepackage{color} % um Farben benutzen zu können
+\usepackage{breakcites} %damit Literaturangabe (cite-Befehl) im Text umgebrochen wird
+\usepackage{multirow}     %fuer kompliziertere Tabellen
+\usepackage{framed}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing,angles,quotes}
+\usepackage{scrlayer-scrpage}     % paket für kopf- und fu{\ss}zeilen
+\pagestyle{scrheadings}   % kopzeilenseitenstil
+\usepackage{natbib}       % Literaturverzeichnis
+\usepackage{amsmath,amsfonts,amssymb}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}\medskipamount % besser als explizite Angabe in pt
+
+% kapitelüberschriften in schriftart mit serifen
+\setkomafont{sectioning}{\normalfont\normalcolor\bfseries}
+
+% gestaltung der kopfzeilen
+\ohead{\pagemark}
+\cfoot{}
+\cohead{}
+\ihead{\headmark}
+\setkomafont{pageheadfoot}{\normalfont \bfseries}
+\setkomafont{pagenumber}{\normalfont \bfseries}
+\automark{section}
+
+\begin{document}
+\selectlanguage{ngerman} %deutsche Silbentrennung
+\frontmatter      % vorspann, kapitel römisch nummeriert
+\include{kapitel/titel}     % titelseite einbinden
+\tableofcontents            % inhaltsverzeichnis
+\listoffigures              % abbildungsverzeichnis
+\listoftables               % tabellenverzeichnis
+\include{kapitel/abkuerzungen}  % beispiel eines handerstellten
+                                %verzeichnisses
+\mainmatter       % hauptteil, kapitel lateinisch nummeriert
+\include{kapitel/einleitung}
+\include{kapitel/emg-signals}
+\include{kapitel/dataset}
+\include{kapitel/dnn}
+\include{kapitel/experiment}
+\include{kapitel/rnn}
+\include{kapitel/other-classifiers}
+\include{kapitel/results}
+\include{kapitel/summary}
+\selectlanguage{ngerman}
+
+\backmatter
+\bibliographystyle{literatur/natdin}
+\bibliography{literatur/dnn_ba_bib}
+\include{kapitel/erklaerung}
+\end{document}

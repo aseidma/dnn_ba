@@ -1,0 +1,228 @@
+\begin{thebibliography}{28}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\fi}
+\makeatother
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bischoff u. Schule-Mattler(2015)]{bischoff2015emg}
+\dinatlabel{Bischoff u. Schule-Mattler 2015}\\ \textsc{Bischoff}, C. ;
+  \textsc{Schule-Mattler}, W.J.:
+\newblock \emph{Das EMG-Buch}.
+\newblock 3. Aufl.
+\newblock Thieme, 2015. --
+\newblock ISBN 978--3131356635
+
+\bibitem[Bu u.\,a.(2003)Bu, Fukuda, u. Tsuji]{bu2003emg}
+\dinatlabel{Bu u.\,a. 2003}\\ \textsc{Bu}, Nan ; \textsc{Fukuda}, Osamu  ;
+  \textsc{Tsuji}, Toshio:
+\newblock EMG-based motion discrimination using a novel recurrent neural
+  network.
+\newblock {In: }\emph{Journal of Intelligent Information Systems} 21 (2003),
+  Nr. 2, S. 113--126
+
+\bibitem[Cho u.\,a.(2014)Cho, van Merri{\"e}nboer, Gulcehre, Bahdanau,
+  Bougares, Schwenk, u. Bengio]{cho-etal-2014-learning}
+\dinatlabel{Cho u.\,a. 2014}\\ \textsc{Cho}, Kyunghyun ;
+  \textsc{Merri{\"e}nboer}, Bart van ; \textsc{Gulcehre}, Caglar ;
+  \textsc{Bahdanau}, Dzmitry ; \textsc{Bougares}, Fethi ; \textsc{Schwenk},
+  Holger  ; \textsc{Bengio}, Yoshua:
+\newblock Learning Phrase Representations using {RNN} Encoder{--}Decoder for
+  Statistical Machine Translation.
+\newblock {In: }\emph{Proceedings of the 2014 Conference on Empirical Methods
+  in Natural Language Processing ({EMNLP})}.
+\newblock Association for Computational Linguistics, 1724--1734
+
+\bibitem[Cote-Allard u.\,a.(2017)Cote-Allard, Fall, Campeau-Lecours, Gosselin,
+  Laviolette, u. Gosselin]{cote2017transfer}
+\dinatlabel{Cote-Allard u.\,a. 2017}\\ \textsc{Cote-Allard}, Ulysse ;
+  \textsc{Fall}, Cheikh~L. ; \textsc{Campeau-Lecours}, Alexandre ;
+  \textsc{Gosselin}, Cl{\'e}ment ; \textsc{Laviolette}, Fran{\c{c}}ois  ;
+  \textsc{Gosselin}, Benoit:
+\newblock Transfer learning for sEMG hand gestures recognition using
+  convolutional neural networks.
+\newblock {In: }\emph{2017 IEEE International Conference on Systems, Man, and
+  Cybernetics (SMC)} IEEE, 2017, S. 1663--1668
+
+\bibitem[Cristianini u. Shawe-Taylor(2000)]{cristianini2000}
+\dinatlabel{Cristianini u. Shawe-Taylor 2000}\\ \emph{Kapitel\/} ~6.
+\newblock \,{In:\,}\textsc{Cristianini}, Nello ; \textsc{Shawe-Taylor}, John:
+\newblock \emph{Support Vector Machines}.
+\newblock Cambridge University Press, 2000, S. 93–124
+
+\bibitem[{Côté-Allard} u.\,a.(2019){Côté-Allard}, {Fall}, {Drouin},
+  {Campeau-Lecours}, {Gosselin}, {Glette}, {Laviolette}, u.
+  {Gosselin}]{Allard2019}
+\dinatlabel{{Côté-Allard} u.\,a. 2019}\\ \textsc{{Côté-Allard}}, U. ;
+  \textsc{{Fall}}, C.~L. ; \textsc{{Drouin}}, A. ; \textsc{{Campeau-Lecours}},
+  A. ; \textsc{{Gosselin}}, C. ; \textsc{{Glette}}, K. ; \textsc{{Laviolette}},
+  F.  ; \textsc{{Gosselin}}, B.:
+\newblock Deep Learning for Electromyographic Hand Gesture Signal
+  Classification Using Transfer Learning.
+\newblock {In: }\emph{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering} 27 (2019), Nr. 4, S. 760--771
+
+\bibitem[Duda u.\,a.(2012)Duda, Hart, u. Stork]{duda2012pattern}
+\dinatlabel{Duda u.\,a. 2012}\\ \textsc{Duda}, Richard~O. ; \textsc{Hart},
+  Peter~E.  ; \textsc{Stork}, David~G.:
+\newblock \emph{Pattern classification}.
+\newblock John Wiley \& Sons, 2012
+
+\bibitem[{Englehart} u. {Hudgins}(2003)]{Engelhart2003}
+\dinatlabel{{Englehart} u. {Hudgins} 2003}\\ \textsc{{Englehart}}, K. ;
+  \textsc{{Hudgins}}, B.:
+\newblock A robust, real-time control scheme for multifunction myoelectric
+  control.
+\newblock {In: }\emph{IEEE Transactions on Biomedical Engineering} 50 (2003),
+  Nr. 7, S. 848--854
+
+\bibitem[Friedman(1997)]{friedman1997bias}
+\dinatlabel{Friedman 1997}\\ \textsc{Friedman}, Jerome~H.:
+\newblock On bias, variance, 0/1—loss, and the curse-of-dimensionality.
+\newblock {In: }\emph{Data mining and knowledge discovery} 1 (1997), Nr. 1, S.
+  55--77
+
+\bibitem[Geng u.\,a.(2016)Geng, Du, Jin, Wei, Hu, u. Li]{geng2016gesture}
+\dinatlabel{Geng u.\,a. 2016}\\ \textsc{Geng}, Weidong ; \textsc{Du}, Yu ;
+  \textsc{Jin}, Wenguang ; \textsc{Wei}, Wentao ; \textsc{Hu}, Yu  ;
+  \textsc{Li}, Jiajun:
+\newblock Gesture recognition by instantaneous surface EMG images.
+\newblock {In: }\emph{Scientific reports} 6 (2016), S. 36571
+
+\bibitem[Gokgoz u. Subasi(2015)]{gokgoz2015comparison}
+\dinatlabel{Gokgoz u. Subasi 2015}\\ \textsc{Gokgoz}, Ercan ; \textsc{Subasi},
+  Abdulhamit:
+\newblock Comparison of decision tree algorithms for EMG signal classification
+  using DWT.
+\newblock {In: }\emph{Biomedical Signal Processing and Control} 18 (2015), S.
+  138--144
+
+\bibitem[Haykin(2007)]{haykin2007neural}
+\dinatlabel{Haykin 2007}\\ \textsc{Haykin}, Simon:
+\newblock \emph{Neural networks: a comprehensive foundation}.
+\newblock Prentice-Hall, Inc., 2007
+
+\bibitem[Hochreiter u.\,a.(2001)Hochreiter, Bengio, Frasconi, Schmidhuber,
+  u.\,a.]{hochreiter2001gradient}
+\dinatlabel{Hochreiter u.\,a. 2001}\\ \textsc{Hochreiter}, Sepp ;
+  \textsc{Bengio}, Yoshua ; \textsc{Frasconi}, Paolo ; \textsc{Schmidhuber},
+  J{\"u}rgen  u.\,a.:
+\newblock \emph{Gradient flow in recurrent nets: the difficulty of learning
+  long-term dependencies}.
+\newblock 2001
+
+\bibitem[Ioffe u. Szegedy(2015)]{ioffe2015batch}
+\dinatlabel{Ioffe u. Szegedy 2015}\\ \textsc{Ioffe}, Sergey ; \textsc{Szegedy},
+  Christian:
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock {In: }\emph{arXiv preprint arXiv:1502.03167}  (2015)
+
+\bibitem[Jain u.\,a.(1996)Jain, Mao, u. Mohiuddin]{jain1996artificial}
+\dinatlabel{Jain u.\,a. 1996}\\ \textsc{Jain}, Anil~K. ; \textsc{Mao},
+  Jianchang  ; \textsc{Mohiuddin}, K~M.:
+\newblock Artificial neural networks: A tutorial.
+\newblock {In: }\emph{Computer} 29 (1996), Nr. 3, S. 31--44
+
+\bibitem[{Kaufmann} u.\,a.(2013){Kaufmann}, {Glette}, {Gruber}, {Platzner},
+  {Torresen}, u. {Sick}]{Kaufmann2013Data}
+\dinatlabel{{Kaufmann} u.\,a. 2013}\\ \textsc{{Kaufmann}}, P. ;
+  \textsc{{Glette}}, K. ; \textsc{{Gruber}}, T. ; \textsc{{Platzner}}, M. ;
+  \textsc{{Torresen}}, J.  ; \textsc{{Sick}}, B.:
+\newblock Classification of Electromyographic Signals: Comparing Evolvable
+  Hardware to Conventional Classifiers.
+\newblock {In: }\emph{IEEE Transactions on Evolutionary Computation} 17 (2013),
+  Nr. 1, S. 46--63
+
+\bibitem[Kaufmann u.\,a.(2013)Kaufmann, Glette, Gruber, Platzner, Torresen, u.
+  Sick]{Kaufmann2013}
+\dinatlabel{Kaufmann u.\,a. 2013}\\ \textsc{Kaufmann}, Paul ; \textsc{Glette},
+  Kyrre ; \textsc{Gruber}, Thiemo ; \textsc{Platzner}, Marco ;
+  \textsc{Torresen}, Jim  ; \textsc{Sick}, Bernhard:
+\newblock Classification of Electromyographic Signals: Comparing Evolvable
+  Hardware to Conventional Classifiers.
+\newblock {In: }\emph{Trans. Evol. Comp} 17 (2013), Februar, Nr. 1, 46–63.
+\newblock  \url{http://dx.doi.org/10.1109/TEVC.2012.2185845}. --
+\newblock DOI 10.1109/TEVC.2012.2185845. --
+\newblock ISSN 1089--778X
+
+\bibitem[Kingma u. Ba(2014)]{kingma2014adam}
+\dinatlabel{Kingma u. Ba 2014}\\ \textsc{Kingma}, Diederik~P. ; \textsc{Ba},
+  Jimmy:
+\newblock Adam: A method for stochastic optimization.
+\newblock {In: }\emph{arXiv preprint arXiv:1412.6980}  (2014)
+
+\bibitem[Kohavi u.\,a.(1995)]{kohavi1995study}
+\dinatlabel{Kohavi u.\,a. 1995}\\ \textsc{Kohavi}, Ron u.\,a.:
+\newblock A study of cross-validation and bootstrap for accuracy estimation and
+  model selection.
+\newblock {In: }\emph{Ijcai} Bd.~14 Montreal, Canada, 1995, S. 1137--1145
+
+\bibitem[LeCun u.\,a.(2015)LeCun, Bengio, u. Hinton]{lecun2015deep}
+\dinatlabel{LeCun u.\,a. 2015}\\ \textsc{LeCun}, Yann ; \textsc{Bengio}, Yoshua
+   ; \textsc{Hinton}, Geoffrey:
+\newblock Deep learning.
+\newblock {In: }\emph{nature} 521 (2015), Nr. 7553, S. 436--444
+
+\bibitem[Nair u. Hinton(2010)]{nair2010rectified}
+\dinatlabel{Nair u. Hinton 2010}\\ \textsc{Nair}, Vinod ; \textsc{Hinton},
+  Geoffrey~E.:
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock {In: }\emph{ICML}, 2010
+
+\bibitem[Pascanu u.\,a.(2013)Pascanu, Mikolov, u.
+  Bengio]{pascanu2013difficulty}
+\dinatlabel{Pascanu u.\,a. 2013}\\ \textsc{Pascanu}, Razvan ; \textsc{Mikolov},
+  Tomas  ; \textsc{Bengio}, Yoshua:
+\newblock On the difficulty of training recurrent neural networks.
+\newblock {In: }\emph{International conference on machine learning}, 2013, S.
+  1310--1318
+
+\bibitem[Scikit(2020)]{scikitDT}
+\dinatlabel{Scikit 2020}\\ \textsc{Scikit}:
+\newblock \emph{1.10. Decision Trees}.
+\newblock  \url{https://scikit-learn.org/stable/modules/tree.html}.
+\newblock \,Version:\,2020
+
+\bibitem[Sim{\~a}o u.\,a.(2019)Sim{\~a}o, Neto, u. Gibaru]{simao2019emg}
+\dinatlabel{Sim{\~a}o u.\,a. 2019}\\ \textsc{Sim{\~a}o}, Miguel ;
+  \textsc{Neto}, Pedro  ; \textsc{Gibaru}, Olivier:
+\newblock EMG-based online classification of gestures with recurrent neural
+  networks.
+\newblock {In: }\emph{Pattern Recognition Letters} 128 (2019), S. 45--51
+
+\bibitem[Srivastava u.\,a.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, u.
+  Salakhutdinov]{srivastava2014dropout}
+\dinatlabel{Srivastava u.\,a. 2014}\\ \textsc{Srivastava}, Nitish ;
+  \textsc{Hinton}, Geoffrey ; \textsc{Krizhevsky}, Alex ; \textsc{Sutskever},
+  Ilya  ; \textsc{Salakhutdinov}, Ruslan:
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {In: }\emph{The journal of machine learning research} 15 (2014), Nr.
+  1, S. 1929--1958
+
+\bibitem[Tsuji u.\,a.(2000)Tsuji, Fukuda, Kaneko, u. Ito]{tsuji2000pattern}
+\dinatlabel{Tsuji u.\,a. 2000}\\ \textsc{Tsuji}, Toshio ; \textsc{Fukuda},
+  Osamu ; \textsc{Kaneko}, Makoto  ; \textsc{Ito}, Koji:
+\newblock Pattern classification of time-series EMG signals using neural
+  networks.
+\newblock {In: }\emph{International Journal of Adaptive Control and Signal
+  Processing} 14 (2000), Nr. 8, S. 829--848
+
+\bibitem[Werbos(1990)]{werbos1990backpropagation}
+\dinatlabel{Werbos 1990}\\ \textsc{Werbos}, Paul~J.:
+\newblock Backpropagation through time: what it does and how to do it.
+\newblock {In: }\emph{Proceedings of the IEEE} 78 (1990), Nr. 10, S. 1550--1560
+
+\bibitem[Zecca u.\,a.(2002)Zecca, Micera, Carrozza, u. Dario]{zecca2002control}
+\dinatlabel{Zecca u.\,a. 2002}\\ \textsc{Zecca}, Micera ; \textsc{Micera},
+  Silvestro ; \textsc{Carrozza}, Maria~C.  ; \textsc{Dario}, Paolo:
+\newblock Control of multifunctional prosthetic hands by processing the
+  electromyographic signal.
+\newblock {In: }\emph{Critical Reviews™ in Biomedical Engineering} 30 (2002),
+  Nr. 4-6
+
+\end{thebibliography}
